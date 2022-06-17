@@ -22,3 +22,17 @@ Pizza.prototype.priceCalc = function(){
 
   this.price += toppingPrice;
 }
+
+$(document).ready(function(){
+  $("form#pizzaBuilder").submit(function(event) {
+    event.preventDefault();
+    let toppingArray = [];
+    let size = $("input:radio[name=size]:checked").val()
+   $("input:checkbox[name=topping]:checked").each(function(){
+    toppingArray.push($(this).val());
+    });
+    let pizza = new Pizza(toppingArray, size);
+    pizza.priceCalc();
+    console.log(pizza.price);
+  });
+});

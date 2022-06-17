@@ -7,4 +7,44 @@
   <script src="js/scripts.js"></script>
   <title>Pizza Parlor</title>
 </head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>Francisco's Pizza</h1>
+      </div>
+      <div class="col-6">
+        <form id="pizzaBuilder">
+          <h3>Pizza Size:</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="size" value="small">
+              Small
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="size" value="medium">
+              Medium
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="size" value="large">
+              Large
+            </label>
+          </div>
+          <h3>Toppings:</h3>
+          <input type="checkbox" name="topping" value="Bell Peppers">
+            <label for="topping"> Bell Peppers</label><br>
+          <input type="checkbox" name="topping" value="Sausage">
+            <label for="topping"> Sausage</label><br>
+          <input type="checkbox" name="topping" value="Pepparoni">
+            <label for="topping"> Pepparoni</label><br>
+            <button type="submit">Make a da pizza</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
