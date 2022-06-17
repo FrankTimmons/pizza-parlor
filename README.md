@@ -44,7 +44,7 @@ myPizza.priceCalc();
 Expected Output: Pizza { toppings: ["anchovies", "pineapple"], size: "medium", price: 15 }  
 
 Test: "It should add 2 dollars for every topping added to the pizza."  
-Code:
+Code:  
 const myPizza = new Pizza(["anchovies", "pineapple"], "medium");  
 myPizza.priceCalc();  
 Expected Output: Pizza { toppings: ["anchovies", "pineapple"], size: "medium", price: 19 } 
