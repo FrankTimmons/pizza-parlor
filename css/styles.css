@@ -43,7 +43,8 @@ img {
 }
 
 #krusty-pizza{
-  margin: 20px;
+  margin: auto;
+  margin-bottom: 20px;
 }
 
 .header {
