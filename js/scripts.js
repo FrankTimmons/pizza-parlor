@@ -63,7 +63,7 @@ function turnOffPizza(){
 $(document).ready(function(){  
   $("form#pizzaBuilder").submit(function(event) {
     event.preventDefault();
-    turnOffPizza()
+    turnOffPizza();
     let toppingArray = [];
     let size = $("input:radio[name=size]:checked").val()
     $("input:checkbox[name=topping]:checked").each(function(){
