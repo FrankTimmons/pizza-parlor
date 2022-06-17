@@ -11,9 +11,12 @@ Pizza.prototype.priceCalc = function(){
   }else if (this.size == "large"){
     this.price = 20;
   }
-  this.toppings.forEach(function(topping){
-    this.price += 2;
-  })
+  let toppingArray = this.toppings;
+  let toppingPrice = 0;
+  toppingArray.forEach(function() {
+    toppingPrice += 2;
+  });
+  this.price += toppingPrice;
 }
 
 const myPizza = new Pizza(["anchovies", "pineapple"], "medium");
