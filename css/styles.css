@@ -78,6 +78,7 @@ img {
 }
 
 .pizza-shop {
+  font-family: 'Pacifico', cursive;
   border: solid green;
   border-radius: 2rem;
   position:absolute;
@@ -91,9 +92,6 @@ img {
 }
 
 .pizza-button {
-  margin: auto;
-  text-align: center;
-  display: block;
   margin-bottom: 20px;
 }
 
@@ -107,6 +105,10 @@ img {
 .pizza-order {
   text-align: center;
   margin: 20px;
+}
+
+.pacifico {
+  font-family: 'Pacifico', cursive;
 }
 
 body {
