@@ -2,6 +2,46 @@
   display: none;
 }
 
+img {
+  height: 200px;
+  width: auto;
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+
+#bell {
+  display: none;
+}
+
+#pep {
+  display: none;
+}
+
+#cheese {
+  display: none;
+}
+
+#sausage {
+  display: none;
+}
+
+#everything {
+  display: none;
+}
+
+#meatlover {
+  display: none;
+}
+
+#pep-n-bell {
+  display: none;
+}
+
+#sausage-n-bell {
+  display: none;
+}
+
 .header {
   text-align: center;
   width: 100%;
