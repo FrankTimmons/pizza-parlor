@@ -40,7 +40,8 @@
 
 .pizza {
   margin: 20px;
-  font-size: large;
+  font-size: larger;
+  font-weight: bold;
   text-align: center;
 }
 
