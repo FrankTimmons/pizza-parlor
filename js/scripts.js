@@ -28,11 +28,14 @@ $(document).ready(function(){
     event.preventDefault();
     let toppingArray = [];
     let size = $("input:radio[name=size]:checked").val()
-   $("input:checkbox[name=topping]:checked").each(function(){
-    toppingArray.push($(this).val());
+
+    $("input:checkbox[name=topping]:checked").each(function(){
+      toppingArray.push($(this).val());
     });
+
     let pizza = new Pizza(toppingArray, size);
     pizza.priceCalc();
-    console.log(pizza.price);
+    $(".pizza").show();
+    $(".pizza-price").text(pizza.price);
   });
 });
