@@ -30,6 +30,7 @@ Pizza.prototype.priceCalc = function(){
 function checkPizza(array){
   let toppingArray = array;
   console.log(toppingArray);
+  $(".chef").show();
   if (toppingArray.includes("Pepperoni") && toppingArray.includes("Sausage") && toppingArray.includes("Bell Peppers")){
     $("#everything").show();
   }else if (toppingArray.includes("Pepperoni") && toppingArray.includes("Sausage")){
