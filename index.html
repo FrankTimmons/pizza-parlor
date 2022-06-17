@@ -8,17 +8,20 @@
   <title>Pizza Parlor</title>
 </head>
 <body>
+  <div class="header"> 
+  </div>
+  <h1 class="pizza-shop">Francisco's Pizza</h1>
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h1>Francisco's Pizza</h1>
+        <h1 class="pizza-order">Order your pizza!</h1>
       </div>
       <div class="col-6">
         <form id="pizzaBuilder">
           <h3>Pizza Size:</h3>
           <div class="radio">
             <label>
-              <input type="radio" name="size" value="small">
+              <input type="radio" name="size" value="small" checked>
               Small
             </label>
           </div>
@@ -41,11 +44,11 @@
             <label> Sausage</label><br>
           <input type="checkbox" name="topping" value="Pepparoni">
             <label> Pepparoni</label><br>
-            <button type="submit">Make a da pizza</button>
+            <button type="submit" class="pizza-button">Make a da pizza</button>
         </form>
-        <div>
-          <p class="pizza">Your pizza will be $<span class="pizza-price"></span></p>
-        </div>
+      </div>
+      <div class="col-6">
+        <p class="pizza">Your pizza will be $<span class="pizza-price"></span></p>
       </div>
     </div>
   </div>
