@@ -14,7 +14,7 @@
 
 ## Description
 
-This application will have auser submit a form with radio buttons for pizza size, and checkboxes for toppings, then return the price of the pizza.  As a bonus functionality, an image of the pizza will also be returned.  
+This application will have a user submit a form with radio buttons for pizza size, and checkboxes for toppings, then return the price of the pizza.  As a bonus functionality, an image of the pizza will also be returned.  
 
 ## Setup/Installation Requirements
 
